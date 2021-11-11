@@ -1,0 +1,189 @@
+/* Remove margins and padding from the list */
+ul.todo-list,ul.todo-list-new {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the list items */
+  ul.todo-list li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #f7f7f7;
+    color:black;
+    font-size: 18px;
+    transition: 0.2s;
+    margin-bottom: 10px;
+    
+    width:100%;
+    height: 60px;
+   
+  }
+
+  li.todo-single .todo-single-name{
+    width:30%;
+    height: 50px;
+    
+    display: inline-block;
+  }
+
+
+  ul.todo-list li:hover {
+    background: #AFE4E9;
+    color:black
+  }
+  
+ 
+ .todo-mouse-enter{
+     
+     border-radius: 10px;
+    
+     display: inline-block;
+     margin-left: 7%;
+
+    width:60%;
+    height: 40px;
+    
+    display: inline-block;
+     
+     
+ }
+
+ .todo-mouse-enter-action-menu{
+     height: 35px;
+     width:65%;
+     background:#fff;
+     display: inline-block;
+     border-radius:20px;
+
+ }
+
+ .todo-delete-button{
+   
+    display: inline-block;
+    margin-left: 15%;
+
+   width:15%;
+   height: 35px;
+   
+   display: inline-block;
+ }
+
+ .todo-mouse-leave{
+    
+    display:none;
+
+    
+}
+
+
+/* todo list new */
+
+ul.todo-list-new li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #f7f7f7;
+    color:black;
+    font-size: 18px;
+    transition: 0.2s;
+    margin-bottom: 10px;
+    
+    width:100%;
+    height: 60px;
+   
+  }
+
+
+  li.todo-single-new .todo-radio-circle-new{
+    height: 18px;
+    width: 18px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    left: 20px;
+    top: 16px;
+    position: absolute;
+}
+.todo-circle-left{
+    height: 2px;
+    width: 8px;
+    top: 8px;
+    left: 1px;
+    transform: rotate(31deg);
+    background: gray;
+    position: absolute;
+}
+.todo-circle-right{
+    height: 2px;
+    width: 10px;
+    top: 7px;
+    left: 5px;
+    transform: rotate(133deg);
+    background: gray;
+    position: absolute;
+}
+
+
+
+
+  li.todo-single-new .todo-name-new{
+    width:30%;
+    height: 50px;
+    
+    display: inline-block;
+  }
+
+
+  .todo-name-new{
+    height: 35px;
+    width:20%;
+    
+    display: inline-block;
+    
+    left: 50px;
+    position:absolute;
+
+}
+
+
+.todo-action-menu-new{
+    height: 35px;
+    width:37%;
+    background:white;
+    /* display: inline-block; */
+    
+    right: -400px;
+    position:absolute;
+    border-radius: 20px;
+    
+
+}
+ul.todo-list-new li:hover .todo-action-menu-new{
+    left: 400px;
+}
+
+.todo-delete-button-new{
+    height: 35px;
+    width:5%;
+    right: -890px;
+    position:absolute;
+    
+
+}
+
+
+
+ul.todo-list-new li:hover .todo-delete-button-new{
+   
+    left: 890px;
+    
+}
+
+
+
+
+
+  
+  
